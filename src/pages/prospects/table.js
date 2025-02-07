@@ -32,8 +32,8 @@ export function CustomTable({ }) {
         <TableCaption></TableCaption>
         <TableHeader>
             <TableRow>
-            <TableHead className="w-1/3">Customer</TableHead>
-            <TableHead>Customer Details</TableHead>
+            <TableHead className="w-1/3">Prospects</TableHead>
+            <TableHead>Prospect Details</TableHead>
             <TableHead>Insights</TableHead>
             </TableRow>
         </TableHeader>

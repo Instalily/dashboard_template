@@ -1,7 +1,6 @@
 import * as Headless from "@headlessui/react"
 import React, { useState, useEffect } from "react"
 import { NavbarItem } from "./navbar"
-import logo from "img/logo.png"
 import { Link } from "react-router-dom"
 import useLocalStorage from 'utils/useLocalStorage'
 
@@ -80,9 +79,6 @@ export function SidebarLayout({ navbar, sidebar, children }) {
           </NavbarItem>
         </div>
         <div className="min-w-0 hidden flex-1">{navbar}</div>
-        <Link to="/">
-          <img src={logo} alt="Logo" className="w-24 mx-auto" />
-        </Link>
       </header>
 
       {/* Content */}
