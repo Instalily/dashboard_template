@@ -17,6 +17,7 @@ import { AppProvider } from 'contexts/AppContext';
 
 // Pages
 import HomePage from "pages/home/Index";
+import Prospects from "pages/prospects/Index"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,6 +28,7 @@ root.render(
           <Header />
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/prospects" element={<Prospects />} />
           </Routes>
         </SidebarLayout>
       </AppProvider>

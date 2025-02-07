@@ -1,5 +1,5 @@
 // MenuItems.js
-import { HomeIcon } from '@heroicons/react/20/solid';
+import { HomeIcon, UserGroupIcon } from '@heroicons/react/20/solid';
 
 export const menuItems = [
   {
@@ -7,5 +7,11 @@ export const menuItems = [
     label: 'Home',
     page_title: 'Insights Dashboard',
     icon: HomeIcon,
+  },
+  {
+    path: '/prospects',
+    label: 'Prospects',
+    page_title: 'Prospects',
+    icon: UserGroupIcon,
   },
 ];
